@@ -1,0 +1,18 @@
+# 堡垒机用户
+user01:
+    pwd: 123
+    host:
+        - web01: root
+        - web01: nginx
+        - web02: root
+    group: DB
+
+user02:
+    pwd: 456
+    host:
+    group: SA
+
+user03:
+    pwd: 789
+    host:
+    group: DB
